@@ -30,7 +30,7 @@ export interface ExperienceExperience extends Struct.ComponentSchema {
     startDate: Schema.Attribute.String;
     state: Schema.Attribute.String;
     title: Schema.Attribute.String;
-    workSummery: Schema.Attribute.Blocks;
+    work_summery: Schema.Attribute.Text;
   };
 }
 
